@@ -1,6 +1,6 @@
 import logo from "/img/logo.svg";
-import "./Banner.css";
-export default function Banner(){
+import "./Start.css";
+export default function Start(){
     return(
         <div className="banner">
             <div className="container">

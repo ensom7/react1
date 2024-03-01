@@ -3,13 +3,13 @@ import sear from '/img/sear.png'
 import ser from '/img/ser.png'
 import bas from '/img/bas.png'
 import line from '/img/line.png'
-import './Header.css'
+import './Footer.css'
 import {Link} from 'react-router-dom'
-export default function Header(){
+export default function Footer(){
     return(
-        <header>
+        <footer>
             <div className="container">
-                <div className="header-content">
+                <div className="footer-content">
                     <div className="logo-menu">
                         <img src={logo} alt="" />
                         <ul className="menu">
@@ -26,13 +26,13 @@ export default function Header(){
                             </li>
                         </ul>
                     </div>
-                    <div className="logos">
-                    <img src={sear} alt="" />
-                    <img src={bas} alt="" />
-                    <img src={ser} alt="" />
+                    <div className="info">
+                    <p className="info_p">Г. КАЗАНЬ УЛ. БАРИ ГАЛЕЕВА 3А</p>
+                    <p className="info_p">+7 927 482-09-82</p>
+                    <p className="info_p">KUZMAKOLOM@GMAIL.RU</p>
                     </div>
                 </div>
             </div>
-        </header>
+        </footer>
     )
 }

@@ -1,5 +1,8 @@
 import Header from './components/Header/Header';
-import Banner from './components/Banner/Banner';
+import Footer from './components/Footer/Footer';
+import Start from './pages/Start/Start'
+import CatalogPage from './pages/Catalog/Catalog'
+import {Routes,Route} from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -8,10 +11,11 @@ function App() {
   return (
     <>
        <Header />
-       <main>
-       <Banner />
-       </main>
-       
+       <Routes>
+        <Route path="/" element ={<Start />} />
+        <Route path ="/catalog" element={<CatalogPage />} />
+       </Routes>
+       <Footer />
     </>
   )
 }

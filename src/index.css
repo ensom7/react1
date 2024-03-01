@@ -1,10 +1,11 @@
-
 *{
-  margin: 0 auto;
+  /* margin: 0 auto; */
   text-decoration: none;
   list-style: none;
 }
 .container{
+  margin: 0 auto;
+
   font-family: "Montserrat Alternates", sans-serif;
 }
 
