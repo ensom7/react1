@@ -1,0 +1,22 @@
+.header-content{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-menu{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.menu_li>a{
+    color: white;
+}
+.logos{
+    display: flex;
+    gap:17px;
+}

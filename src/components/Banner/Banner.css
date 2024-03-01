@@ -1,0 +1,27 @@
+.banner{
+    background: url('../img/banner.png');
+}
+.btn{
+    background-color: #735184;
+    border-radius: 20px;
+    padding: 20px 44px;
+    color: white;
+    border: 1px solid #735184;
+    font-size: 24px;
+    font-family: "Montserrat Alternates", sans-serif;
+    margin-top: 32px;
+}
+.banner-content>p{
+ font-size: 32px;
+ color: white;
+ margin-top: 28px;
+}
+.banner-content>img{
+    width: 690px;
+   }
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 138px 0 180px 0;
+}
