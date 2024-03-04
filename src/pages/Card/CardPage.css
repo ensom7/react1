@@ -1,0 +1,35 @@
+.price_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tovar_cont{
+    display: flex;
+    width: 1312px;
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 100px;
+}
+.prod_name{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.prod_desc{
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 600px;
+}
+.prod_price{
+    font-size: 25px;
+    text-align: left;
+    color: #735184;
+}
+.tovar_logo{
+    display: flex;
+    gap: 13px;
+}
+.tovar{
+    width: 384px;
+    margin-bottom: 55px;
+}

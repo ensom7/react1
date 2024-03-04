@@ -23,3 +23,9 @@
     width: 384px;
     margin-bottom: 55px;
 }
+.btn_card{
+    padding: 10px 20px;
+    background-color: #735184;
+    border-radius: 8px;
+    color: white;
+}
