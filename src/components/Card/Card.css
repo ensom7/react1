@@ -1,0 +1,25 @@
+.price_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tovar_content{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+}
+.name{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.price{
+    font-size: 25px;
+    text-align: left;
+}
+.tovar_logo{
+    display: flex;
+    gap: 13px;
+}
+.tovar{
+    width: 384px;
+    margin-bottom: 55px;
+}
