@@ -5,7 +5,7 @@
 // import ser_tovar from "/img/ser_tovar.png";
 import Card from '../../components/Card/Card';
 import "./Catalog.css";
-// import {tovar} from '../../data';
+import {tovar} from '../../data';
 export default function Catalog(){
     return(
         <div className="catalog">
@@ -19,9 +19,9 @@ export default function Catalog(){
                   </div>
                   <div className="tovar_content">
                     
-                       <Card title="Футболка" price="456" />
-                       <Card title="Футболка 2" price="656" />
-                       <Card title="Футболка 3" price="856" />
+                  {tovar.map((tovar,index) =>(
+                    <Card key={index} {...tovar}/>
+                ))}
                   </div>
                 </div>
             </div>
