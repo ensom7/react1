@@ -49,3 +49,11 @@
     width: 384px;
     margin-bottom: 55px;
 }
+.btn_search{
+    width: 500px;
+    padding: 10px 20px;
+    border: 1px solid #735184;
+    border-radius: 8px;
+    margin-top: 50px;
+    
+}

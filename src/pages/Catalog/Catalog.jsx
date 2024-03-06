@@ -1,12 +1,15 @@
-// import bas_tovar from "/img/bas_tovar.png";
 
-// import tovar2 from "/img/tovar2.png";
-// import tovar3 from "/img/tovar3.png";
-// import ser_tovar from "/img/ser_tovar.png";
 import Card from '../../components/Card/Card';
 import "./Catalog.css";
 import {tovar} from '../../data';
+import { useState } from 'react';
+// import {useState} from 'react';
 export default function Catalog(){
+  const[searchQuery,setSearchQuery] = useState("");
+  const searchTovar = tovar.filter((item) => item.name.toLowerCase().includes(searchQuery))
+  // function search (e){
+  //   setSearchQuery(e.target.value);
+  // }
     return(
         <div className="catalog">
             <div className="container">
@@ -17,11 +20,18 @@ export default function Catalog(){
                     <input type="submit" value="Низ"/>
                     <input type="submit" value="Обувь"/>
                   </div>
+                  <input type="search" className='btn_search' placeholder='Поиск' onChange={(e) => setSearchQuery(e.target.value)} />
+                  <hr />
                   <div className="tovar_content">
                     
-                  {tovar.map((tovar,index) =>(
+                  {
+                  searchTovar.length ?
+                  searchTovar.map((tovar,index) =>(
                     <Card key={index} {...tovar}/>
-                ))}
+                ))
+              :
+              <p>По запросу {searchQuery} ничего не найдено</p>
+              }
                   </div>
                 </div>
             </div>
