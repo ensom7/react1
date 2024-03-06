@@ -24,6 +24,9 @@ export default function Header(){
                             <li className="menu_li">
                                 <Link to="/users">Пользователи</Link>
                             </li>
+                            <li className="menu_li">
+                                <Link to="/create">Добавление</Link>
+                            </li>
                         </ul>
                     </div>
                     <div className="logos">

@@ -4,6 +4,7 @@ import Start from './pages/Start/Start'
 import Catalog from './pages/Catalog/Catalog'
 import CardPage from './pages/Card/CardPage'
 import UsersPage from './pages/UsersPage/UsersPage'
+import CreatePage from './pages/CreatePage/CreatePage'
 import {Routes,Route} from 'react-router-dom'
 import './App.css'
 
@@ -18,6 +19,7 @@ function App() {
         <Route path ="/catalog" element={<Catalog />} />
         <Route path ="/catalog/:id" element={<CardPage />} />
         <Route path ="/users" element={<UsersPage />} />
+        <Route path ="/create" element={<CreatePage />} />
        </Routes>
        <Footer />
     </>
