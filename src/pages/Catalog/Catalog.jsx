@@ -3,7 +3,6 @@ import Card from '../../components/Card/Card';
 import "./Catalog.css";
 import {tovar} from '../../data';
 import { useState } from 'react';
-// import {useState} from 'react';
 export default function Catalog(){
   const[searchQuery,setSearchQuery] = useState("");
   const searchTovar = tovar.filter((item) => item.name.toLowerCase().includes(searchQuery))

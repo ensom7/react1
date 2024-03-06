@@ -22,7 +22,7 @@ export default function Header(){
                             </li>
                             <img src={line} alt="" />
                             <li className="menu_li">
-                                <Link to="/">ИНФОРМАЦИЯ</Link>
+                                <Link to="/users">Пользователи</Link>
                             </li>
                         </ul>
                     </div>
