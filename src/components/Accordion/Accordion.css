@@ -1,0 +1,28 @@
+.accordion_item{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #846792;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+.accordion_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.accordion_content{
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+/* .pl{
+    width: 100px;
+    height: 100px;
+} */

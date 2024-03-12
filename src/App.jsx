@@ -1,6 +1,7 @@
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Start from './pages/Start/Start'
+import Accordion from './components/Accordion/Accordion';
 import Catalog from './pages/Catalog/Catalog'
 import CardPage from './pages/Card/CardPage'
 import UsersPage from './pages/UsersPage/UsersPage'
