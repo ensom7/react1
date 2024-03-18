@@ -7,6 +7,7 @@ import Catalog from './pages/Catalog/Catalog'
 import CardPage from './pages/Card/CardPage'
 import UsersPage from './pages/UsersPage/UsersPage'
 import CreatePage from './pages/CreatePage/CreatePage'
+import Modalka from './components/Modal/Modalka';
 import {Routes,Route} from 'react-router-dom'
 import './App.css'
 
@@ -22,6 +23,7 @@ function App() {
         <Route path ="/catalog/:id" element={<CardPage />} />
         <Route path ="/users" element={<UsersPage />} />
         <Route path ="/create" element={<CreatePage />} />
+        <Route path ="/modal" element={<Modalka />} />
        </Routes>
        <Footer />
     </>
